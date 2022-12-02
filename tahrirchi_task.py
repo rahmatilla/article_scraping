@@ -18,7 +18,7 @@ for link in links:
         paragraph = p.get_text()                                                 # get text inside paragraph tag
         text = paragraph
         for i in ['”', '“', '–', '«', '»']:
-            text = text.replace(i, "")                                # remove such symbols in ['”', '“', '–', '«', '»']
+            text = text.replace(i, "")                                # remove ['”', '“', '–', '«', '»'] symbols in text
         text = re.sub(r'[0-9]', '', text)                             # remove numbers
         for word in text.split():                                     # split text into words
             word = word.strip(string.punctuation)                     # remove other punctuations from word
