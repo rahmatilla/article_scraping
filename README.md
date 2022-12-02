@@ -5,6 +5,6 @@ Bonus Part. Some questions for reasoning:
 - How would you evaluate the quality of the collected data?
 
 Answers:
-- I use crontab in Linux(Ubuntu) OS, Windows Task Scheduler in Windows OS.
+- I automate this process using crontab in Linux(Ubuntu) OS, Windows Task Scheduler in Windows OS.
 - CSV file.
-- 
+- Firstly I use Jupiter Notebook during coding to view results in each process step by step. After saving, I open dataset with excel to check "word" column by filtering and sorting.
